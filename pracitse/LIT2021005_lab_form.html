@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <style>
+        form {
+            width: 40%;
+            /* padding: 10px; */
+            border-left: 2px solid #000;
+            border-right: 2px solid rgb(0, 0, 0);
+            border-top: 2px solid #000;
+            border-bottom: 2px solid rgb(0, 0, 0);
+            box-shadow: 0 -3em 3em rgba(26, 23, 23, 0.329), 0 0 0 2px rgb(17, 17, 17), 0.3em 0.3em 1em rgba(19, 16, 16, 0.3);
+        }
+        
+        input {
+            font-size: 15px;
+            padding: 5mm;
+            border-width: 0.7mm;
+            box-shadow: inset 0 -3em 3em rgba(219, 219, 106, 0.329), 0 0 0 2px rgb(17, 17, 17), 0.3em 0.3em 1em rgba(19, 16, 16, 0.3);
+        }
+        
+        button {
+            width: 505px;
+            height: 40px;
+            background-color: #1900a4;
+            color: white;
+            font-size: 15px;
+            box-shadow: 5px 5px 1px #0a09114d;
+        }
+        
+        body {
+            background-color: bisque;
+        }
+    </style>
+</head>
+
+<body>
+    <p>
+        <center>
+            <form action="" style="background-color: rgb(186, 187, 173)">
+                <div class="top">
+                    <h1>
+                        <font color="red">IIIT LUCKNOW</font>
+                    </h1>
+                    <h2>Student Registration</h2>
+                </div>
+                <br />
+                <b><font size="4">Name : </font></b
+          ><input
+            type="text"
+            name="name"
+            placeholder="enter your name "
+          /><br /><br />
+          <b> <font size="4">Last Name : </font></b
+          ><input type="text" name="name" placeholder="last name" /><br /><br />
+          <b><font size="4">Email : </font></b
+          ><input
+            type="email"
+            name="mail"
+            placeholder="alloted by college"
+          /><br /><br />
+          <b><font size="4">Date of Birth : </font></b
+          ><input type="date" name="date" /><br /><br />
+          <b><font size="4">Phone no. : </font></b
+          ><input
+            type="text"
+            name="number"
+            placeholder="enter your valid number"
+          /><br /><br />
+          <b><font size="4">Semester : </font></b>
+                <select class="form-select" aria-label="Default select example">
+            <option selected>branch</option>
+            <option value="1">cs</option>
+            <option value="2">IT</option>
+            <option value="3">csb</option>
+            <option value="3">csai</option>
+          </select>
+                <select class="form-select" aria-label="Default select example">
+            <option selected>current semester</option>
+            <option value="1">one</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+            <option value="3">four</option>
+            <option value="3">five</option>
+            <option value="3">six</option>
+            <option value="3">seven</option>
+            <option value="3">eight</option></select
+          ><br /><br />
+          <button type="submit" name="Submit"><b>Submit</b></button>
+        </form>
+      </center>
+    </p>
+  </body>
+</html>
